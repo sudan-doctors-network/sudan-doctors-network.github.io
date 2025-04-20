@@ -1,4 +1,7 @@
-/* Main Styles for Sudanese Doctors Network Website */
+/* Main Styles for Sudan Doctors Network Website */
+
+
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
 
 :root {
   --primary-color: #352154ff;
@@ -8,7 +11,9 @@
   --light-text: #ffffff;
   --font-main: 'Roboto', Arial, sans-serif;
   --font-heading: 'Montserrat', Arial, sans-serif;
+  --font-heading-ar: 'Droid Arabic Kufi', Arial, sans-serif;
 }
+
 
 * {
   margin: 0;
@@ -55,8 +60,16 @@ header {
 }
 
 .logo-text h1 {
-  font-family: var(--font-heading);
+  font-family: var(--font-heading-ar);
   font-size: 1.8rem;
+  margin-right: 50px;
+  margin-bottom: 5px;
+}
+
+.logo-text h2 {
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  margin-right: 50px;
   margin-bottom: 5px;
 }
 
@@ -190,69 +203,6 @@ nav ul li a:hover {
 /*  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); */
 }
 
-/* Social Media Section */
-.social-media {
-  background-color: var(--accent-color);
-  padding: 80px 0;
-}
-
-.social-feeds {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
-  margin-top: 40px;
-}
-
-.social-feed {
-  background-color: #ffffff;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-}
-
-.social-feed-header {
-  padding: 15px;
-  background-color: var(--primary-color);
-  color: var(--light-text);
-  display: flex;
-  align-items: center;
-}
-
-.social-feed-header i {
-  font-size: 1.5rem;
-  margin-right: 10px;
-}
-
-.social-feed-content {
-  padding: 20px;
-}
-
-.social-post {
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #eee;
-}
-
-.social-post:last-child {
-  margin-bottom: 0;
-  padding-bottom: 0;
-  border-bottom: none;
-}
-
-.post-date {
-  font-size: 0.8rem;
-  color: #777;
-  margin-bottom: 10px;
-}
-
-.view-more {
-  display: block;
-  text-align: center;
-  margin-top: 20px;
-  color: var(--primary-color);
-  text-decoration: none;
-  font-weight: 500;
-}
 
 /* Contact Section */
 .contact {
