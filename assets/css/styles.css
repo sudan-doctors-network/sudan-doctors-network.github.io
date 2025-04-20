@@ -1,8 +1,6 @@
 /* Main Styles for Sudan Doctors Network Website */
 
 
-@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
-
 :root {
   --primary-color: #352154ff;
   --secondary-color: #87ceeb;
@@ -11,7 +9,7 @@
   --light-text: #ffffff;
   --font-main: 'Roboto', Arial, sans-serif;
   --font-heading: 'Montserrat', Arial, sans-serif;
-  --font-heading-ar: 'Droid Arabic Kufi', Arial, sans-serif;
+  --font-heading-ar: 'Tahoma', Arial, sans-serif;
 }
 
 
