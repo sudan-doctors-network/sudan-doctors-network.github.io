@@ -48,25 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 clearError('message');
             }
             
-            if (isValid) {
-                // In a real implementation, this would send the form data to a server
-                // For now, we'll just show a success message
-                const formGroups = contactForm.querySelectorAll('.form-group');
-                formGroups.forEach(group => {
-                    group.style.display = 'none';
-                });
-                
-                const submitBtn = contactForm.querySelector('button[type="submit"]');
-                submitBtn.style.display = 'none';
-                
-                const successMessage = document.createElement('div');
-                successMessage.className = 'success-message';
-                successMessage.textContent = 'Thank you for your message! We will get back to you soon.';
-                contactForm.appendChild(successMessage);
-                
-                // Reset form
-                contactForm.reset();
-            }
+
         });
     }
     
